@@ -134,12 +134,10 @@ import { Sandbox } from './Pages/SandboxPage';
         });
 
         test('Puedo seleccionar un dia del Dropdwn Dia de la Semana', async ({ page }) => {
-
             await test.step('Selecciono un dia de la semana del dropdown', async () => {
                 await sandbox.selectDia();
             });
-
-        });
+        });     
     });
 
 })();
